@@ -1,12 +1,18 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import VideoPlayer from "react-background-video-player";
+import VideoBg from "./video/bulbVideo.mp4";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <video autoPlay loop muted id='video-background'>
-        <source src='https://www.youtube.com/watch?v=Pnxyh3_0tE4' type='video/mp4' />
-      </video>
+      <VideoPlayer
+        className="bg-video"
+        src={VideoBg}
+        autoPlay={true}
+        muted={true}
+        loop={true}
+      />
     </div>
   );
 }
