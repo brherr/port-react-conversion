@@ -1,6 +1,7 @@
 import React from "react";
 import VideoPlayer from "react-background-video-player";
 import VideoBg from "./video/bulbVideo.mp4";
+import Header from "./Components/Header";
 import "./App.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         muted={true}
         loop={true}
       />
+      <Header />
     </div>
   );
 }

@@ -1,10 +1,13 @@
 import React from 'react';
+import Button from '@mui/material/Button';
+import "./Header.css";
 
 function Header() {
   return (
-    <div>
+    <div className='header'>
         <div className="header__left">
-        {/* logo */}
+          <Button className='header__brad' href="homepage">Brad</Button>
+          <Button className='header__herr' href="homepage">Herr.</Button> 
         </div>
         <div className="header__right">
             {/* nav */}

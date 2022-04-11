@@ -2,7 +2,9 @@ import React from 'react';
 
 function NavbarItem() {
   return (
-      <button></button>
+      <button>
+        
+      </button>
   )
 }
 
